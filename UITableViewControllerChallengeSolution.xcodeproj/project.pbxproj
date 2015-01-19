@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		AB449A151A6D15010016348D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB449A141A6D15010016348D /* main.m */; };
 		AB449A181A6D15010016348D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB449A171A6D15010016348D /* AppDelegate.m */; };
-		AB449A1B1A6D15010016348D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB449A1A1A6D15010016348D /* ViewController.m */; };
 		AB449A1E1A6D15010016348D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB449A1C1A6D15010016348D /* Main.storyboard */; };
 		AB449A201A6D15010016348D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB449A1F1A6D15010016348D /* Images.xcassets */; };
 		AB449A231A6D15010016348D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB449A211A6D15010016348D /* LaunchScreen.xib */; };
 		AB449A2F1A6D15010016348D /* UITableViewControllerChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB449A2E1A6D15010016348D /* UITableViewControllerChallengeSolutionTests.m */; };
+		AB449A3A1A6D18E60016348D /* UITableViewControllerChallengeSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = AB449A391A6D18E60016348D /* UITableViewControllerChallengeSpace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		AB449A141A6D15010016348D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB449A161A6D15010016348D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB449A171A6D15010016348D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB449A191A6D15010016348D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB449A1A1A6D15010016348D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AB449A1D1A6D15010016348D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB449A1F1A6D15010016348D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AB449A221A6D15010016348D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AB449A281A6D15010016348D /* UITableViewControllerChallengeSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerChallengeSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB449A2D1A6D15010016348D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB449A2E1A6D15010016348D /* UITableViewControllerChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerChallengeSolutionTests.m; sourceTree = "<group>"; };
+		AB449A381A6D18E60016348D /* UITableViewControllerChallengeSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewControllerChallengeSpace.h; sourceTree = "<group>"; };
+		AB449A391A6D18E60016348D /* UITableViewControllerChallengeSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerChallengeSpace.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				AB449A161A6D15010016348D /* AppDelegate.h */,
 				AB449A171A6D15010016348D /* AppDelegate.m */,
-				AB449A191A6D15010016348D /* ViewController.h */,
-				AB449A1A1A6D15010016348D /* ViewController.m */,
 				AB449A1C1A6D15010016348D /* Main.storyboard */,
+				AB449A381A6D18E60016348D /* UITableViewControllerChallengeSpace.h */,
+				AB449A391A6D18E60016348D /* UITableViewControllerChallengeSpace.m */,
 				AB449A1F1A6D15010016348D /* Images.xcassets */,
 				AB449A211A6D15010016348D /* LaunchScreen.xib */,
 				AB449A121A6D15010016348D /* Supporting Files */,
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB449A1B1A6D15010016348D /* ViewController.m in Sources */,
 				AB449A181A6D15010016348D /* AppDelegate.m in Sources */,
 				AB449A151A6D15010016348D /* main.m in Sources */,
+				AB449A3A1A6D18E60016348D /* UITableViewControllerChallengeSpace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
